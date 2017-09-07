@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  devopshacksimpleproject:
+    image: devopshacksimpleproject
+    build:
+      context: ./DevOpsHackSimpleProject
+      dockerfile: Dockerfile
